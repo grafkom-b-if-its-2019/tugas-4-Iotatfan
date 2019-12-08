@@ -299,7 +299,7 @@
 
     // Membuat mekanisme pembacaan gambar jadi tekstur
     function initTexture(callback, args) {
-      var imageSource = 'images/AIO.bmp';
+      var imageSource = 'images/AIO.png';
       var promise = new Promise(function(resolve, reject) {
         var image = new Image();
         if (!image) {
