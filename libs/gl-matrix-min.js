@@ -3,7 +3,7 @@
 @author Brandon Jones
 @author Colin MacKenzie IV
 @version 3.1.0
- 
+
 Copyright (c) 2015-2019, Brandon Jones, Colin MacKenzie IV.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

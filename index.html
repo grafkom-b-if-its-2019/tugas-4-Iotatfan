@@ -4,30 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Letter A Bouncing Around</title>
+  <title>Belajar WebGL</title>
 </head>
 <body>
-  <canvas id="glcanvas" width="960" height="960">
+  <canvas id="glcanvas" width="640" height="640">
     Browser Anda tidak mendukung HTML5 <code>&lt;canvas&gt;</code>.
   </canvas>
 
   <!-- Shaders -->
-  <script name="shader" data-src="shaders/vertex.glsl" data-type="vertex" data-version="v1"></script>
-  <script name="shader" data-src="shaders/fragment.glsl" data-type="fragment" data-version="v1"></script>
-
-  <script name="shader" data-src="shaders/vertex2.glsl" data-type="vertex" data-version="v3"></script>
-  <script name="shader" data-src="shaders/fragment2.glsl" data-type="fragment" data-version="v3"></script>
-  
-  <script name="shader" data-src="shaders/vertexCube.glsl" data-type="vertex" data-version="v2"></script>
-  <script name="shader" data-src="shaders/fragmentCube.glsl" data-type="fragment" data-version="v2"></script>
+  <script name="shader" data-src="shaders/vertexCube.glsl" data-type="vertex" data-version="v1"></script>
+  <script name="shader" data-src="shaders/fragmentCube.glsl" data-type="fragment" data-version="v1"></script>
+  <script name="shader" data-src="shaders/vertexLetter.glsl" data-type="vertex" data-version="v2"></script>
+  <script name="shader" data-src="shaders/fragmentLetter.glsl" data-type="fragment" data-version="v2"></script>
 
   <!-- Library untuk men-dispatch methods -->
   <script type="text/javascript" src="libs/signals.js"></script>
 
+  <script type="text/javascript" src="libs/gl-matrix-min.js"></script>
+
   <!-- JavaScript untuk menghubungkan ke WebGL -->
   <script type="text/javascript" src="libs/glUtils.js"></script>
-
-  <script type="text/javascript" src="libs/gl-matrix-min.js"></script>
 
   <!-- JavaScript utama kita -->
   <script type="text/javascript" src="index.js"></script>
